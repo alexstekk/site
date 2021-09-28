@@ -1,0 +1,279 @@
+/* ПОДКЛЮЧАЕМ ШРИФТЫ */
+/* &display=swap&subset=cyrillic-ext */
+/*
+font-weight:
+Устанавливает насыщенность шрифта.
+100 - thin
+300 - lite
+400 - normal/regular
+500 - medium+
+600 - semibold
+700 - bold
+900 - black
+*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap&subset=cyrillic-ext);
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700);
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	/* box-sizing: content-box; */
+	/* box-sizing: padding-box; */
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	line-height: 1;
+	font-family: "Roboto";
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* --------------- */
+
+.h1 {
+	color: #fff;
+	font-size: 24px;
+	margin: 0px 0px 10px 0px;
+}
+
+.header-top-date {
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+.container {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+
+.header-top {
+	background-color: #077b8a;
+	padding: 15px 0px;
+}
+
+/* ================================== */
+
+.who-are-we {
+	font-family: "Roboto";
+	background-color: #f5f5f5;
+	padding: 60px 60px 200px;
+}
+
+.who-are-we-body {
+	margin: 0px auto;
+	background-color: #fff;
+	padding: 85px;
+	/* height: 700px; */
+}
+.who-are-we-subtitle img {
+	width: 17px;
+	height: 16px;
+	margin: 0px 16px 0px 0px;
+}
+.who-are-we-subtitle {
+	font-size: 12px;
+	line-height: 24px;
+	color: #4b4b4b;
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	margin: 0px 0px 33px 0px;
+}
+.who-are-we-title {
+	font-size: 36px;
+	font-weight: 900;
+	line-height: 42px;
+	text-align: left;
+	margin: 0px 0px 36px 0px;
+	color: #02133c;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	max-width: 600px;
+}
+.who-are-we-text {
+	color: #4b4b4b;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 54px 0px;
+}
+.who-are-we-img {
+	text-align: center;
+	width: 846px;
+	/* margin: -300px auto 0px auto; */
+	margin: 0px auto -170px auto;
+}
+
+.who-are-we-img img {
+	max-width: 100%;
+}
+
+.separator {
+	border-bottom: 1px dashed #000;
+	background-color: #f5f5f5;
+}
+
+.our-services {
+	background-color: #f5f5f5;
+	padding: 60px;
+	font-family: "Roboto";
+}
+
+.our-services-card {
+	width: 324px;
+	padding: 45px;
+	background-color: #fff;
+	margin: 0px auto 24px auto;
+}
+.our-services-card-img {
+	width: 63px;
+	margin: 0px auto 33px auto;
+	text-align: center;
+}
+
+.our-services-card-img img {
+	max-width: 100%;
+}
+.our-services-card-title {
+	margin: 0px 0px 20px 0px;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	text-align: center;
+	color: #02133c;
+}
+.our-services-card-text {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+}
+
+/* ================================== */
+.tech-online {
+	font-family: "Poppins";
+}
+
+.terms {
+	padding: 60px;
+	color: #000;
+}
+.tech-online-container {
+	max-width: 1040px;
+	margin: 0px auto;
+}
+.terms-body {
+}
+.terms-title {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 48px;
+	margin: 0px 0px 30px 0px;
+}
+.terms-subtitle {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	margin: 0px 0px 60px 0px;
+}
+.terms-text {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 300;
+	margin: 0px 0px 26px 0px;
+}
+.terms-text-subtitle {
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 600;
+	margin: 0px 0px 26px 0px;
+}
+
+/* ================================== */
+
+.quality {
+}
+.tech-online-container {
+}
+.quality-body {
+	max-width: 500px;
+	margin: 0px auto;
+	padding: 30px;
+}
+.quality-img {
+	width: 50px;
+	margin: 0px 0px 10px 0px;
+}
+
+.quality-img img {
+	max-width: 100%;
+}
+.quality-title {
+	font-weight: 500;
+	font-size: 44px;
+	line-height: 58px;
+	margin: 0px 0px 20px 0px;
+}
+.quality-text {
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 26px;
+}
+
+/* ================================== */
+
+.footer {
+	text-align: center;
+	padding: 30px 0px;
+	background-color: #077b8a;
+}
+
+.footer img:not(:last-child) {
+	margin: 0px 20px 0px 0px;
+}
+
+.motivation-text {
+	font-size: 18px;
+	margin: 0px 0px 15px 0px;
+	color: #fff;
+}
